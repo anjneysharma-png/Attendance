@@ -4,7 +4,7 @@ name: Absentee list to CEO WhatsApp
 on:
   schedule:
     # 3 PM IST = 09:30 UTC (IST = UTC+5:30)---"30 9 * * *"
-    - cron: "55 6 * * *"
+    - cron: "0 8 * * *"
   workflow_dispatch:
 
 jobs:
